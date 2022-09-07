@@ -1,0 +1,49 @@
+.view{
+    margin: 0px auto;
+    width: 1549px;
+    overflow: hidden;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sliders{
+    width: 588px;
+}
+.First{
+    width: 0px;
+}
+.animationNext{
+    animation-name: next;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.animPrevious{
+    animation-name: previous;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.hover{
+    display: none;
+}
+.absolute{
+    position: absolute;
+    margin-left: -600px;
+}
+@keyframes next {
+    0%{
+  
+    }
+    100%{
+        margin-left: -585px;
+    }
+}
+@keyframes previous {
+    0%{
+    }
+    100%{
+        margin-left: 585px;
+    }
+}
