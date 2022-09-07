@@ -1,14 +1,18 @@
 *{
     font-family: 'Montserrat';
 }
+.wrapper{
+    width: 1050px;
+    margin: 0 auto;
+}
 /*   header   */
 header{
     padding-top: 13px;
     margin: 0 auto;
-    width: 1554px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .Delivery{
     display: flex;
@@ -48,6 +52,42 @@ header{
 }
 .Call-Link:hover{
     text-decoration: underline;
+}
+/*   main nav   */
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    width: 835px;
+}
+.nav-link{
+    font-size: 15px;
+    margin-right: 10px;
+    color: black;
+    font-weight: 600;
+    text-decoration:none ;
+}
+.nav-link-log-in{
+    font-size: 16px;
+    text-decoration:none ;
+    color: rgba(105, 111, 122, 1);
+    font-weight: 700;
+}
+.nav-link-log-in:hover{
+    text-decoration: underline;
+}
+.busket{
+    text-decoration: none;
+    color: black;
+    background-color:rgba(247, 210, 45, 1);
+    padding: 7px 61px 7px 21px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 49px;
+}
+.busket:hover{
+    padding: 9px 63px 9px 23px;
 }
 /*   carousel   */
 .view{
