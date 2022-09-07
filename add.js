@@ -45,10 +45,3 @@ const SliderNext = function(){
 
 BtnPlas.addEventListener('click', SliderNext);
 btnPrevious.addEventListener('click', SluderPrevious)
-
-const arr1 = [1, 2, 3]
-const arr2 = [2, 6, 7]
-
-const arr = arr1.concat(arr2)
-
-console.log(arr)
