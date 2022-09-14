@@ -179,7 +179,7 @@ header{
 }
 .add-to-busket{
     color: #fff;
-    font-size:14px ;
+    font-size:13px ;
     font-weight: 700;
     background-color:  rgba(247, 210, 45, 1);
     padding: 4px 23px;
@@ -527,6 +527,9 @@ nav{
 
 }
 @media (max-width: 1156px){
+    .new-meals-list{
+        overflow: hidden;
+    }
     header {
         flex-wrap: nowrap;
     }
