@@ -45,3 +45,16 @@ const SliderNext = function(){
 
 BtnPlas.addEventListener('click', SliderNext);
 btnPrevious.addEventListener('click', SluderPrevious)
+
+
+const btn = document.querySelector('.bourger');
+
+btn.addEventListener('click', function(){
+    document.querySelector('header').classList.toggle('header-active')
+    document.querySelector('nav').classList.toggle('hover')
+
+    document.querySelector("#two").classList.toggle('hover')
+    document.querySelector("#one").classList.toggle('for-one')
+    document.querySelector("#three").classList.toggle('for-three')
+    document.querySelector(".bourger-nav").classList.toggle('hover')
+})
